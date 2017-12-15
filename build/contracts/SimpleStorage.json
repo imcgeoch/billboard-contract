@@ -1,0 +1,96 @@
+{
+  "contract_name": "SimpleStorage",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60b98061001e6000396000f300606060405263ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166360fe47b1811460465780636d4ce63c14605b575b600080fd5b3415605057600080fd5b6059600435607d565b005b3415606557600080fd5b606b6086565b60405190815260200160405180910390f35b60008190555b50565b6000545b905600a165627a7a7230582071e7caf1e1a33a69c41b075715e7ef9a8bc98c8022ff1e0d253faca92a9832640029",
+  "networks": {
+    "1510105890646": {
+      "events": {},
+      "links": {},
+      "address": "0xbf6622eb135102612f70f8567e008b990cf409a4",
+      "updated_at": 1510108301850
+    },
+    "1510711497137": {
+      "events": {},
+      "links": {},
+      "address": "0xb5b5a4bbccb93560a8e2196490dc787206c1e5b9",
+      "updated_at": 1510712028325
+    },
+    "1510889423856": {
+      "events": {},
+      "links": {},
+      "address": "0x518cf52b33eb0e94f59c99e94bd4a5bc41338756",
+      "updated_at": 1510889474679
+    },
+    "1511662487972": {
+      "events": {},
+      "links": {},
+      "address": "0xda19fdef0c132520e1d53737d6fcc8b533bae7ae",
+      "updated_at": 1511662652420
+    },
+    "1511663000872": {
+      "events": {},
+      "links": {},
+      "address": "0xf9c658e99ee815f32e68f27c08e1d86e204f4d71",
+      "updated_at": 1511663012009
+    },
+    "1511837501543": {
+      "events": {},
+      "links": {},
+      "address": "0x9b2d5682560fb13562ac49c867bb123d1a016020",
+      "updated_at": 1511837562511
+    },
+    "1511837679736": {
+      "events": {},
+      "links": {},
+      "address": "0xb3a53ec94aab439b86f9bcbfb76a9068beadd913",
+      "updated_at": 1511837686764
+    },
+    "1513289361731": {
+      "events": {},
+      "links": {},
+      "address": "0x6a8cea22fdd61e48c967f25891a7c3ff30c4eb06",
+      "updated_at": 1513289390641
+    },
+    "1513289772672": {
+      "events": {},
+      "links": {},
+      "address": "0x2075078ba3d5700d95b7a6c237d70913fa4b5166",
+      "updated_at": 1513289825193
+    },
+    "1513290100161": {
+      "events": {},
+      "links": {},
+      "address": "0xb5e3ed36673830770bb9f10f970ca99e1d968821",
+      "updated_at": 1513290137200
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1513290137200
+}

@@ -1,0 +1,177 @@
+{
+  "contract_name": "Billboard",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "cells",
+      "outputs": [
+        {
+          "name": "price",
+          "type": "uint256"
+        },
+        {
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getCells",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes4[3200]"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "characters",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "cell",
+          "type": "uint16"
+        },
+        {
+          "name": "character",
+          "type": "bytes4"
+        }
+      ],
+      "name": "change",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "cell",
+          "type": "uint16"
+        },
+        {
+          "name": "newprice",
+          "type": "uint256"
+        }
+      ],
+      "name": "setPrice",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "cell",
+          "type": "uint16"
+        }
+      ],
+      "name": "purchase",
+      "outputs": [],
+      "payable": true,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b5b5b610519806100216000396000f300606060405236156100675763ffffffff60e060020a6000350416631941fd14811461006c578063374aed97146100a35780633ccfd60b146100f15780634810bc5914610106578063a394ec901461014e578063bbc2986c1461018c578063efbce030146101ab575b600080fd5b341561007757600080fd5b6100826004356101bc565b604051918252600160a060020a031660208201526040908101905180910390f35b34156100ae57600080fd5b6100b66101e9565b60405180826201900080838360005b838110156100de5780820151818401525b6020016100c5565b5050505090500191505060405180910390f35b34156100fc57600080fd5b610104610272565b005b341561011157600080fd5b61011c6004356102be565b6040517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19909116815260200160405180910390f35b341561015957600080fd5b61010461ffff600435167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19602435166102ee565b005b341561019757600080fd5b61010461ffff60043516602435610380565b005b61010461ffff600435166103ef565b005b600181610c8081106101ca57fe5b6002020160005b508054600190910154909150600160a060020a031682565b6101f16104c2565b611901610c80620190006040519081016040529190620190008301826000855b82829054906101000a900460e060020a027bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190600401906020826003010492830192600103820291508084116102115790505b505050505090505b90565b600160a060020a033316600081815260208190526040808220805492905590919082156108fc0290839051600060405180830381858888f1935050505015156102ba57600080fd5b5b50565b61190181610c8081106102cd57fe5b600891828204019190066004025b915054906101000a900460e060020a0281565b81610c8061ffff82161061030157600080fd5b82600161ffff8216610c80811061031457fe5b6002020160005b506001015433600160a060020a0390811691161461033857600080fd5b8261190161ffff8616610c80811061034c57fe5b600891828204019190066004025b6101000a81548163ffffffff021916908360e060020a900402179055505b5b505b505050565b81610c8061ffff82161061039357600080fd5b82600161ffff8216610c8081106103a657fe5b6002020160005b506001015433600160a060020a039081169116146103ca57600080fd5b82600161ffff8616610c8081106103dd57fe5b6002020160005b50555b5b505b505050565b600081610c8061ffff82161061040457600080fd5b349150600161ffff8416610c80811061041957fe5b6002020160005b505482101561042e57600080fd5b81600080600161ffff8716610c80811061044457fe5b6002020160005b50600190810154600160a060020a0316825260208201929092526040016000208054909201909155339061ffff8516610c80811061048557fe5b6002020160005b50600101805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555b5b505050565b62019000604051908101604052610c80815b6000815260001990910190602001816104d457905050905600a165627a7a723058207bb5250a33840ffe71e3979fe9eacc3cb2a665a274d5cb3258f73c8ceb972ed50029",
+  "networks": {
+    "1510711497137": {
+      "events": {},
+      "links": {},
+      "address": "0xa7f38a9540bde9f8a1dd334c8f7bf7e0fe9389ed",
+      "updated_at": 1510712028326
+    },
+    "1510889423856": {
+      "events": {},
+      "links": {},
+      "address": "0xbc3f7324402fccaa0dd36134aa1deb7ff96dab7b",
+      "updated_at": 1510889474679
+    },
+    "1511662487972": {
+      "events": {},
+      "links": {},
+      "address": "0x230181ef6fac957bd2f42f71fbbec536d05872db",
+      "updated_at": 1511662652420
+    },
+    "1511663000872": {
+      "events": {},
+      "links": {},
+      "address": "0x688f94c65e8170d77671ae0a5024c68ffbcd9e57",
+      "updated_at": 1511663012009
+    },
+    "1511837501543": {
+      "events": {},
+      "links": {},
+      "address": "0x9e97220860782c917c5eaf31afa9c5463acc123d",
+      "updated_at": 1511837562512
+    },
+    "1511837679736": {
+      "events": {},
+      "links": {},
+      "address": "0x242486b0c8b5c800bcc4153036b303fc7169948b",
+      "updated_at": 1511837686764
+    },
+    "1513289361731": {
+      "events": {},
+      "links": {},
+      "address": "0x6b3b7341c198dbb2b17c746e49b834f247fade8a",
+      "updated_at": 1513289390642
+    },
+    "1513289772672": {
+      "events": {},
+      "links": {},
+      "address": "0x404c224c762d557d136d2dfe3f43f7934efdf970",
+      "updated_at": 1513289825195
+    },
+    "1513290100161": {
+      "events": {},
+      "links": {},
+      "address": "0xf40f2dea02807e581796bd6dc4905ba14e8b22b7",
+      "updated_at": 1513290137207
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1513290137207
+}
